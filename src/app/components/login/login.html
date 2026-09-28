@@ -1,0 +1,7 @@
+<form (ngSubmit)="onSubmit()">
+  <input type="text" name="user" placeholder="Usuario" [(ngModel)]="user" />
+  <input type="password" name="pwd" placeholder="Contraseña" [(ngModel)]="pwd" />
+  <button type="submit">Entrar</button>
+</form>
+
+<p>{{ message() }}</p>
